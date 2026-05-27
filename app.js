@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Docker + GitHub + AWS');
+  res.send('Docker Updated!');
 });
 
 app.listen(3000, () => {
